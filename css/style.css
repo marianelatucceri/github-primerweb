@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+}
+
+header {
+  border-bottom: 0.2px solid rgb(230, 230, 230);
+}
+header nav div div img {
+  width: 50px;
+  margin-left: 100px;
+}
+
+/*# sourceMappingURL=style.css.map */
