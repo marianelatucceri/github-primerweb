@@ -17,13 +17,15 @@
               position: relative;
               align-items: center;
               justify-content: center;
+              text-align: center;
+              margin-left: auto;
              
               .card-title{
                 display: flex;
               }
-             .card-text{
+              .card-text{
                 display: flex;
-             }
+              }
             }
         }
     }

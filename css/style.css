@@ -52,6 +52,8 @@ section div img {
   position: relative;
   align-items: center;
   justify-content: center;
+  text-align: center;
+  margin-left: auto;
 }
 .container-tarjetas .container-cards1 .card .card-body .card-title {
   display: flex;
