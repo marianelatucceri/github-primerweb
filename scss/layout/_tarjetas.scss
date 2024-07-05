@@ -10,8 +10,8 @@
         justify-content: space-evenly;
         
         .card{
-            margin: 20px;
-            border: none;
+          margin: 20px;
+          border: none;
             
             .card-body{
               position: relative;
@@ -28,5 +28,56 @@
               }
             }
         }
+    }  
+} 
+
+.container-publicidad{
+  background-color: #E7E7E7;
+  display: flex;
+  
+  .img-publicidad{
+    img{
+      width: 100%;
     }
+  }
+  .texto-publicidad{
+    margin-left: 250px;
+    margin-top: 90px;
+    h2{
+      color: white;
+      font-size: 30px;
+    }
+    p{
+      font-weight: bold;
+      font-size: 25px;
+    }
+    a{
+      font-size: 18px;
+      text-decoration: underline;
+      color: black;
+    }
+  }
+}
+
+.publicidad-pedidosya{
+  display: flex;
+  background-color: #00A1E1;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin-left: 150px;
+  margin-bottom: 50px;
+  margin-top: 30px;
+
+  .img-pedidosya{
+    width: 10%;
+    margin-left: 150px;
+  }
+  .texto-pedidosya{
+    color: white;
+    margin-right: 180px;
+    h2{
+      font-size: 28px;
+    }
+  }
 }
