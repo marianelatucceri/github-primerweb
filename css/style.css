@@ -2,14 +2,45 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box !important;
+  font-family: "Inconsolata", monospace;
+}
+
+.inconsolata-font {
+  font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
 }
 
 header {
   border-bottom: 0.2px solid rgb(230, 230, 230);
+  font-family: "Inconsolata", monospace;
 }
 header nav div div img {
   width: 50px;
   margin-left: 100px;
+}
+
+section {
+  width: 100%;
+  margin-top: 15px;
+}
+section div {
+  width: 36%;
+}
+section div img {
+  width: 172%;
+  padding-left: 30px;
+}
+
+.container-tarjetas h1 {
+  text-align: center;
+  margin-top: 60px;
+  font-family: "Inconsolata", monospace;
+}
+.container-tarjetas .container-cards {
+  display: flex;
 }
 
 /*# sourceMappingURL=style.css.map */
