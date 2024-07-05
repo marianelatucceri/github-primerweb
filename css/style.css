@@ -39,7 +39,24 @@ section div img {
   margin-top: 60px;
   font-family: "Inconsolata", monospace;
 }
-.container-tarjetas .container-cards {
+.container-tarjetas .container-cards1 {
+  display: flex;
+  width: 100% !important;
+  justify-content: space-evenly;
+}
+.container-tarjetas .container-cards1 .card {
+  margin: 50px 60px;
+  border: none;
+}
+.container-tarjetas .container-cards1 .card .card-body {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.container-tarjetas .container-cards1 .card .card-body .card-title {
+  display: flex;
+}
+.container-tarjetas .container-cards1 .card .card-body .card-text {
   display: flex;
 }
 
