@@ -1,0 +1,76 @@
+.cafe-origen{
+    background-color: #F5F5F5;
+    margin-bottom: 0;
+
+    .texto-footer{
+        padding-top: 80px;
+        width: 100%;
+        h2{
+        font-size: 30px;
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        }
+        p{
+        font-size: 20px;
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        }
+    }
+
+    .img-panama{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        img{
+            width: 250px;
+        }
+    }
+}
+
+.footer{
+    background-color: #393939;
+    display: flex;
+    background-position: center bottom;
+	background-size: 100% 75%;
+    min-height: 30vh;
+    justify-content: space-between;
+    margin-bottom: 0;
+    margin-top: 0;
+    .img-redes{
+        display: flex;
+        align-items: center;
+        position: relative;
+        width: 80px;
+        margin-right: 140px;
+    }
+    .img-llama{
+        width: 60px;
+        display: flex;
+        align-items: center;
+        margin-left: 90px;
+    }
+}
+
+.fin-footer{
+    margin-top: 0;
+    background-color: #EEEEEE;
+    background-position: center bottom;
+	background-size: 100% 45%;
+    min-height: 19vh;
+
+    p{
+        display: flex;
+        justify-content: center;
+        padding-top: 25px;
+        a{
+            text-decoration: none;
+            padding-left: 7px;
+        }
+    }
+}
