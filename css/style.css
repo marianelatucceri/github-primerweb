@@ -309,4 +309,87 @@ section .origenes-3 p {
   padding-left: 70px;
 }
 
+.sourdoughs-1 {
+  display: flex;
+  width: 95%;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.sourdoughs-1 img {
+  width: 100%;
+  padding-bottom: 40px;
+  padding-top: 10px;
+}
+.sourdoughs-1 p {
+  padding-top: 15px;
+  padding-left: 70px;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.texto-sourd {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  text-align: center;
+  align-items: start;
+  width: 70%;
+  margin-left: 240px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.sourdoughs-2 {
+  display: flex;
+  width: 95%;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.sourdoughs-2 img {
+  width: 100%;
+  padding-bottom: 40px;
+  padding-top: 10px;
+}
+.sourdoughs-2 p {
+  padding-top: 15px;
+  padding-left: 70px;
+}
+
+section .prensa-1 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  position: relative;
+  margin-top: 40px;
+}
+section .prensa-1 img {
+  width: 250%;
+  padding-bottom: 40px;
+  padding-top: 10px;
+}
+section .prensa-1 p {
+  width: 170%;
+  margin-left: 80px;
+  padding-bottom: 90px;
+  border-bottom: 0.2px solid black;
+}
+section .prensa-2 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 60px;
+  margin-top: 40px;
+}
+section .prensa-2 img {
+  width: 250%;
+  padding-bottom: 40px;
+  padding-top: 10px;
+}
+section .prensa-2 p {
+  width: 170%;
+  margin-left: 80px;
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,38 @@
+section{
+    .prensa-1{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        position: relative;
+        margin-top: 40px;
+        img{
+            width: 250%;
+            padding-bottom: 40px;
+            padding-top: 10px;
+
+        }
+        p{
+            width: 170%;
+            margin-left: 80px;
+            padding-bottom: 90px;
+            border-bottom: 0.2px solid black;
+        }
+    }
+    .prensa-2{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        position: relative;
+        margin-bottom: 60px;
+        margin-top: 40px;
+        img{
+            width: 250%;
+            padding-bottom: 40px;
+            padding-top: 10px;
+        }
+        p{
+            width: 170%;
+            margin-left: 80px;
+        }
+    }
+}
