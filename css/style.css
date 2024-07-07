@@ -8,7 +8,7 @@
 .inconsolata-font {
   font-family: "Inconsolata", monospace;
   font-optical-sizing: auto;
-  font-weight: 300;
+  font-weight: 200;
   font-style: normal;
   font-variation-settings: "wdth" 100;
 }
@@ -20,6 +20,14 @@ header {
 header nav div div img {
   width: 50px;
   margin-left: 100px;
+}
+header nav div ul li a {
+  transition: 1s !important;
+}
+header nav div ul li a:hover {
+  text-decoration: underline;
+  text-underline-offset: 1.5em;
+  color: #2A89C9 !important;
 }
 
 section {
@@ -146,7 +154,11 @@ section div img {
   width: 250px;
 }
 
-.footer {
+footer {
+  bottom: 0 !important;
+  position: relative;
+}
+footer .footer {
   background-color: #393939;
   display: flex;
   background-position: center bottom;
@@ -156,35 +168,94 @@ section div img {
   margin-bottom: 0;
   margin-top: 0;
 }
-.footer .img-redes {
+footer .footer .img-redes {
   display: flex;
   align-items: center;
   position: relative;
   width: 80px;
   margin-right: 140px;
 }
-.footer .img-llama {
+footer .footer .img-llama {
   width: 60px;
   display: flex;
   align-items: center;
   margin-left: 90px;
 }
-
-.fin-footer {
+footer .fin-footer {
   margin-top: 0;
   background-color: #EEEEEE;
-  background-position: center bottom;
   background-size: 100% 45%;
   min-height: 19vh;
 }
-.fin-footer p {
+footer .fin-footer p {
   display: flex;
   justify-content: center;
   padding-top: 25px;
 }
-.fin-footer p a {
+footer .fin-footer p a {
   text-decoration: none;
   padding-left: 7px;
+}
+
+section div h2 {
+  padding-left: 140px;
+  font-weight: none;
+}
+section .section-1 {
+  display: flex;
+  width: 95%;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+section .section-1 img {
+  width: 100%;
+  padding-bottom: 40px;
+  padding-top: 10px;
+}
+section .section-1 p {
+  padding-top: 15px;
+  padding-left: 70px;
+}
+section .section-2 {
+  display: flex;
+  width: 95%;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+section .section-2 img {
+  width: 100%;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+section .section-2 p {
+  padding-top: 15px;
+  padding-left: 70px;
+  margin-left: 40px;
+  font-weight: bold;
+  font-size: 21px;
+  border-top: 0.5px solid black;
+  border-bottom: 0.5px solid black;
+}
+section .section-3 {
+  display: flex;
+  width: 95%;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #F9F9F9;
+}
+section .section-3 img {
+  width: 100%;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+section .section-3 p {
+  padding-top: 15px;
+  padding-left: 70px;
+  font-weight: bold;
+  font-size: 23px;
 }
 
 /*# sourceMappingURL=style.css.map */
