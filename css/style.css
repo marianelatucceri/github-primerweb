@@ -258,4 +258,55 @@ section .section-3 p {
   font-size: 23px;
 }
 
+section .origenes-1 {
+  display: flex;
+  width: 95%;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+section .origenes-1 img {
+  width: 100%;
+  padding-bottom: 40px;
+  padding-top: 10px;
+}
+section .origenes-1 p {
+  padding-top: 15px;
+  padding-left: 70px;
+  font-weight: bold;
+  font-size: 25px;
+}
+section .origenes-2 {
+  display: flex;
+  width: 95%;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+section .origenes-2 img {
+  width: 100%;
+  padding-bottom: 40px;
+  padding-top: 10px;
+}
+section .origenes-2 p {
+  padding-top: 15px;
+  padding-left: 70px;
+}
+section .origenes-3 {
+  display: flex;
+  width: 95%;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+section .origenes-3 img {
+  width: 100%;
+  padding-bottom: 40px;
+  padding-top: 10px;
+}
+section .origenes-3 p {
+  padding-top: 15px;
+  padding-left: 70px;
+}
+
 /*# sourceMappingURL=style.css.map */
