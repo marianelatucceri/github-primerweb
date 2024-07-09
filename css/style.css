@@ -25,8 +25,6 @@ header nav div ul li a {
   transition: 1s !important;
 }
 header nav div ul li a:hover {
-  text-decoration: underline;
-  text-underline-offset: 1.5em;
   color: #2A89C9 !important;
 }
 
@@ -390,6 +388,120 @@ section .prensa-2 img {
 section .prensa-2 p {
   width: 170%;
   margin-left: 80px;
+}
+
+.container-franquicias {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 70px;
+  width: 100%;
+}
+.container-franquicias .franquicias-1 {
+  justify-content: center;
+  align-content: center;
+  width: 40%;
+}
+.container-franquicias .franquicias-1 h2 {
+  padding-right: 60px;
+  font-size: 55px;
+}
+.container-franquicias .franquicias-1 p {
+  text-align: start;
+  font-size: 18px;
+  padding-left: 142px;
+  padding-right: 70px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+.container-franquicias .franquicias-1 a {
+  padding-left: 150px;
+}
+.container-franquicias .franquicias-1 a .boton {
+  background-color: #2A89C9;
+  padding: 15px 70px;
+  color: white;
+  border: none;
+}
+.container-franquicias .franquicias-2 {
+  width: 30%;
+}
+
+.container-bienvenidos {
+  width: 100%;
+  background-color: #F9F9F9;
+}
+.container-bienvenidos .bienvenidos-1 {
+  width: 100%;
+}
+.container-bienvenidos .bienvenidos-1 h5 {
+  text-align: center;
+  padding-top: 50px;
+}
+.container-bienvenidos .bienvenidos-1 h2 {
+  text-align: center;
+  margin-right: 90px;
+  padding-top: 25px;
+  font-size: 55px;
+}
+.container-bienvenidos .bienvenidos-1 p {
+  padding-top: 25px;
+  text-align: center;
+  justify-content: center;
+  width: 70%;
+  margin-left: 210px;
+  font-size: 16px;
+}
+.container-bienvenidos .bienvenidos-1 p span {
+  font-weight: bold;
+}
+.container-bienvenidos .bienvenidos-2 {
+  width: 100%;
+}
+.container-bienvenidos .bienvenidos-2 iframe {
+  padding-top: 45px;
+  justify-content: center;
+  width: 70%;
+  height: 580px;
+  margin-left: 220px;
+  margin-bottom: 70px;
+}
+
+.container-nuestrahistoria {
+  display: flex;
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.container-nuestrahistoria .nuestra-historia1 {
+  width: 50%;
+  justify-content: center;
+}
+.container-nuestrahistoria .nuestra-historia1 h2 {
+  font-size: 50px;
+  margin-left: 50px;
+  padding-bottom: 40px;
+}
+.container-nuestrahistoria .nuestra-historia1 p {
+  justify-content: flex-start;
+  padding-left: 150px;
+  padding-right: 70px;
+}
+.container-nuestrahistoria .nuestra-historia1 p span {
+  font-weight: bold;
+}
+.container-nuestrahistoria .nuestra-historia2 {
+  width: 40%;
+}
+.container-nuestrahistoria .nuestra-historia2 .img-1 {
+  width: 27%;
+  display: flex;
+  flex-direction: row;
+}
+.container-nuestrahistoria .nuestra-historia2 .img-2 {
+  display: flex;
+  flex-direction: row;
+  width: 54%;
+  padding-top: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */
