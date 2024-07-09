@@ -4,6 +4,10 @@
     box-sizing: border-box !important;
     font-family: "Inconsolata", monospace;
 }
+body{
+    overflow-x: hidden;
+    width: 100%;
+}
 
 
 // <uniquifier>: Use a unique and descriptive class name

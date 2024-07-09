@@ -34,6 +34,7 @@
     }
 }
 
+
 .container-bienvenidos{
     width: 100%;
     background-color: #F9F9F9;
@@ -75,6 +76,7 @@
     }
 }
 
+
 .container-nuestrahistoria{
     display: flex;
     width: 100%;
@@ -91,7 +93,7 @@
         p{
             justify-content: flex-start;
             padding-left: 150px;
-            padding-right: 70px;
+            padding-right: 60px;
             span{
                 font-weight: bold;
             }
@@ -109,6 +111,83 @@
             flex-direction: row;
             width: 54%;
             padding-top: 30px;
+        }
+    }
+}
+
+
+.container-ofrecemos{
+    background-color: #F9F9F9;
+    width: 100%;
+    .encabezado{
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        padding-top: 40px;
+        h2{
+            font-size: 50px;
+            padding-right: 130px;
+        }
+        p{
+            padding-top: 30px;
+        }
+    }
+    .grid-llama{
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+        margin-top: 50px;
+        padding-bottom: 70px;
+        .primer-section{
+            width: 80%;
+            margin-left: 250px;
+            justify-content: flex-start;
+            .grid-exp{
+                width: 110%;
+                margin-bottom: 90px;
+                margin-top: 40px;
+            }   
+            .grid-soporte{
+                width: 110%;
+            }
+        }
+        .img-logo{
+            width: 30%;
+            justify-content: center;
+            margin-right: 400px;
+            img{
+                width: 350%;
+                padding-left: 70px;
+            }
+        }
+        .segunda-section{
+            width: 80%;
+            margin-right: 150px;
+            justify-content: flex-end;
+            .grid-calidad{
+                width: 110%;
+                margin-bottom: 70px;
+                margin-top: 40px;
+            }
+            .grid-marca{
+                width: 110%;
+            }
+        }
+    }
+    .botton{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding-bottom: 70px;
+        
+        a{
+            .boton{
+                background-color: #2A89C9;
+                padding: 15px 70px;
+                color: white;
+                border: none;
+            }
         }
     }
 }
