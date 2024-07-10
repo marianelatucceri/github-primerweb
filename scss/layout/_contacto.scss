@@ -1,0 +1,131 @@
+.container-contacto{
+    .titulo-contacto{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding-right: 70px;
+        padding-top: 40px;
+        padding-bottom: 80px;
+    }
+    .horario-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        img{
+            width: 5%;
+            margin-right: 70px;
+            margin-bottom: 20px;
+        }
+        h5{
+            margin-right: 35px;
+            margin-bottom: 40px;
+        }
+    }
+    .horario-2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 70px;
+        p{
+            margin-right: 30px;
+            font-size: 15px;
+        }
+    }
+}
+ 
+.container-cardcontacto{
+    display: flex;
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    align-content: center;
+    margin-left: 180px;
+    margin-bottom: 70px;
+    
+    .card-contacto1{
+        width: 100%;
+        .icono-mail{
+            img{
+                width: 50%;
+                margin-bottom: 30px;
+            }
+            h5{
+                margin-bottom: 30px;
+            }
+        }
+        .administracion{
+            width: 100%;
+            p{
+                span{
+                    color: #00A1E1;
+                    text-decoration: underline;
+                }
+            }
+        }
+        .venta{
+            width: 100%;
+            p{
+                span{
+                    color: #00A1E1;
+                    text-decoration: underline;
+                }
+            }
+        }
+        .trabajo{
+            width: 100%;
+            p{
+                span{
+                    color: #00A1E1;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    .card-contacto2{
+        width: 100%;
+        .icono-wapp{
+            img{
+                width: 40%;
+                margin-bottom: 40px;
+            }
+            h5{
+                margin-bottom: 30px;
+                width: 120%;
+            }
+        }
+        .oficinas{
+            width: 60%;
+        }
+        .citybell{
+            width: 100%;
+        }
+        .local{
+            width: 100%;
+        }
+       
+    }
+    .card-contacto3{
+        width: 100%;
+        img{
+            width: 40%;
+            margin-bottom: 40px;
+        }
+        h5{
+            margin-bottom: 30px;
+        }
+        .cityb{
+            width: 100%;
+        }
+        .tibunales{
+            width: 100%;
+        }
+        .laplata{
+            width: 100%;
+        }
+    }
+}

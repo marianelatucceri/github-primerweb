@@ -878,4 +878,122 @@ section .prensa-2 p {
   text-decoration: underline;
 }
 
+.container-contacto .titulo-contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-right: 70px;
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+.container-contacto .horario-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.container-contacto .horario-1 img {
+  width: 5%;
+  margin-right: 70px;
+  margin-bottom: 20px;
+}
+.container-contacto .horario-1 h5 {
+  margin-right: 35px;
+  margin-bottom: 40px;
+}
+.container-contacto .horario-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 70px;
+}
+.container-contacto .horario-2 p {
+  margin-right: 30px;
+  font-size: 15px;
+}
+
+.container-cardcontacto {
+  display: flex;
+  width: 100%;
+  position: relative;
+  justify-content: center;
+  align-content: center;
+  margin-left: 180px;
+  margin-bottom: 70px;
+}
+.container-cardcontacto .card-contacto1 {
+  width: 100%;
+}
+.container-cardcontacto .card-contacto1 .icono-mail img {
+  width: 50%;
+  margin-bottom: 30px;
+}
+.container-cardcontacto .card-contacto1 .icono-mail h5 {
+  margin-bottom: 30px;
+}
+.container-cardcontacto .card-contacto1 .administracion {
+  width: 100%;
+}
+.container-cardcontacto .card-contacto1 .administracion p span {
+  color: #00A1E1;
+  text-decoration: underline;
+}
+.container-cardcontacto .card-contacto1 .venta {
+  width: 100%;
+}
+.container-cardcontacto .card-contacto1 .venta p span {
+  color: #00A1E1;
+  text-decoration: underline;
+}
+.container-cardcontacto .card-contacto1 .trabajo {
+  width: 100%;
+}
+.container-cardcontacto .card-contacto1 .trabajo p span {
+  color: #00A1E1;
+  text-decoration: underline;
+}
+.container-cardcontacto .card-contacto2 {
+  width: 100%;
+}
+.container-cardcontacto .card-contacto2 .icono-wapp img {
+  width: 40%;
+  margin-bottom: 40px;
+}
+.container-cardcontacto .card-contacto2 .icono-wapp h5 {
+  margin-bottom: 30px;
+  width: 120%;
+}
+.container-cardcontacto .card-contacto2 .oficinas {
+  width: 60%;
+}
+.container-cardcontacto .card-contacto2 .citybell {
+  width: 100%;
+}
+.container-cardcontacto .card-contacto2 .local {
+  width: 100%;
+}
+.container-cardcontacto .card-contacto3 {
+  width: 100%;
+}
+.container-cardcontacto .card-contacto3 img {
+  width: 40%;
+  margin-bottom: 40px;
+}
+.container-cardcontacto .card-contacto3 h5 {
+  margin-bottom: 30px;
+}
+.container-cardcontacto .card-contacto3 .cityb {
+  width: 100%;
+}
+.container-cardcontacto .card-contacto3 .tibunales {
+  width: 100%;
+}
+.container-cardcontacto .card-contacto3 .laplata {
+  width: 100%;
+}
+
 /*# sourceMappingURL=style.css.map */
