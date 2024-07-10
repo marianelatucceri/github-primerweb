@@ -177,6 +177,7 @@ footer .footer .img-redes {
   position: relative;
   width: 80px;
   margin-right: 140px;
+  gap: 10px;
 }
 footer .footer .img-llama {
   width: 60px;
@@ -580,6 +581,26 @@ section .prensa-2 p {
   padding: 15px 70px;
   color: white;
   border: none;
+}
+
+.container-empezar {
+  width: 100%;
+}
+.container-empezar .encabezado-empezar {
+  width: 100%;
+  margin-top: 90px;
+}
+.container-empezar .encabezado-empezar h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 55px;
+  padding-right: 150px;
+  padding-bottom: 15px;
+}
+.container-empezar .encabezado-empezar p {
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
